@@ -1,4 +1,5 @@
-
+#Funciones de primer nivel, función es un bloque de código con nombre (anónimas lambda)
+#que se ejecutan sobre funciones. Función es de nivel superior si admite como parámetros opciones (entrada o salida), o su resultado es una función, o, cumple ambas.
 
 def maxi(*l):
     if len(l) == 0:
